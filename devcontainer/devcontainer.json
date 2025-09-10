@@ -1,0 +1,12 @@
+{
+            "type": "shell",
+            "label": "Podman: Build Local on open",
+            "command": "podman build -t image-name:image-version -f .\\devcontainer\\Dockerfile .",
+            "presentation": {
+                "reveal": "always",
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+            
+}
